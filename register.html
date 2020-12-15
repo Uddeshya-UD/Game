@@ -33,19 +33,7 @@ border-radius:10px 10px 0 0
   opacity: 1; /* Firefox */
 }
 </style>
-<script type="text/javascript">
-						function results()
-						{
-						
-						var name = document.getElementById("name").value;
-						var email = document.getElementById("email").value;
-						
-						document.write("<h1 color: red><center>Thanks "+name+"</h1>");
-						document.write("<h2><center>We have received your comment !</center></h2>");
-						
-						
-}
-</script>
+
 
 </head>
 <body style="background:url(img/Backk.jpg);background-size: cover;background-attachment: fixed">
@@ -57,7 +45,7 @@ border-radius:10px 10px 0 0
 						<h4>Contact US</h4>
 					
 						<div class="form center">
-						<form action="#" onsubmit="return results();">
+						<form action="https://formspree.io/f/xrgoydbj" method="POST">
 							
 							<input id="name" type="text" name="user_name" placeholder="Enter your full name"/>
 							<input id="email" type="email" name="user_email" placeholder="Enter your Email"/>
